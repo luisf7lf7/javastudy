@@ -3,7 +3,7 @@ package org.lbustos.appfacturas.modelo;
 public class Producto {
     private int codigo;
     private String nombre;
-    private double precio;
+    private float precio;
     private static int ultimoCodigo;
 
     public Producto() {
@@ -22,11 +22,11 @@ public class Producto {
         this.nombre = nombre;
     }
 
-    public double getPrecio() {
+    public float getPrecio() {
         return precio;
     }
 
-    public void setPrecio(double precio) {
+    public void setPrecio(float precio) {
         this.precio = precio;
     }
 
